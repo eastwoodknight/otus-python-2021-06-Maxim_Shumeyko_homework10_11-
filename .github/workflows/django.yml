@@ -27,4 +27,5 @@ jobs:
         pip install -r requirements-dev.txt
     - name: Run Tests
       run: |
-        python homework_09/blog/manage.py test
+        cd homework_09/blog
+        python manage.py test
